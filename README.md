@@ -101,6 +101,9 @@ Contributions are welcome! Please follow these steps to contribute:
 3. Commit your changes with clear and concise messages.
 4. Open a pull request and describe the changes you've made.
 
+### Shout out - Thanks for your contributions!
+- [XCraftMC23](https://github.com/XCraftMC23)
+
 ---
 
 ## License
