@@ -3,8 +3,8 @@ ARG BASE_IMAGE="core-kali-rolling"
 FROM kasmweb/$BASE_IMAGE:$BASE_TAG
 USER root
 
-ENV HOME /home/kasm-default-profile
-ENV STARTUPDIR /dockerstartup
+ENV HOME=/home/kasm-default-profile
+ENV STARTUPDIR=/dockerstartup
 WORKDIR $HOME
 
 ### Envrionment config
@@ -35,7 +35,7 @@ RUN \
   rm -Rf ${INST_DIR}
 
 # Userspace Runtime
-ENV HOME /home/kasm-user
+ENV HOME=/home/kasm-user
 WORKDIR $HOME
 USER 1000
 

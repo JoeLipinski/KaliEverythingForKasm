@@ -78,9 +78,11 @@ To use this Docker image in Kasm, follow these steps:
 2. **Configure in Kasm:**
 
    - Log in to your Kasm admin interface.
-   - Go to **Images** -> **Add Custom Image**.
+   - Go to **Workspaces** -> **Workspaces** -> **Add Workspace**.
    - Enter the required details:
-     - **Name**: `Kali Everything`
+     - **Workspace Type**: `Container`
+     - **Friendly Name**: `Kali Everything`
+     - **Description**: `A custom Kali Linux image with the kali-everything metapackage pre-installed.`
      - **Docker Image**: `kali-everything-kasm`
    - Save and launch the session from Kasm.
 
