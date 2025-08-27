@@ -1,4 +1,5 @@
 # KaliEverythingForKasm
+
 This repository contains a Dockerfile and necessary configuration to build a Docker image of the "Kali Everything" distribution of [Kali Linux](https://www.kali.org/) tailored specifically for use within the [Kasm Web Application](https://www.kasmweb.com/). The image is intended to provide a complete Kali Linux environment, enabling security professionals to run penetration testing, digital forensics, and security assessments through a web browser.
 
 ---
@@ -102,6 +103,7 @@ Contributions are welcome! Please follow these steps to contribute:
 4. Open a pull request and describe the changes you've made.
 
 ### Shout out - Thanks for your contributions!
+
 - [XCraftMC23](https://github.com/XCraftMC23)
 
 ---
